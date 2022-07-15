@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47ec64a9-6acf-4937-b814-7883daf858a3" name="Default Changelist" comment="提交">
-      <change afterPath="$PROJECT_DIR$/conf.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo03-os/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="47ec64a9-6acf-4937-b814-7883daf858a3" name="Default Changelist" comment="提交" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,11 +151,11 @@
     </state>
     <state x="249" y="87" key="SettingsEditor/0.0.1493.885@0.0.1493.885" timestamp="1657806955919" />
     <state x="256" y="80" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1657847029185" />
-    <state x="350" y="159" key="Vcs.Push.Dialog.v2" timestamp="1657851951321">
+    <state x="350" y="159" key="Vcs.Push.Dialog.v2" timestamp="1657868301093">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="340" y="172" key="Vcs.Push.Dialog.v2/0.0.1493.885@0.0.1493.885" timestamp="1657811469743" />
-    <state x="350" y="159" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1657851951321" />
+    <state x="350" y="159" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1657868301093" />
     <state x="422" y="172" width="672" height="678" key="search.everywhere.popup" timestamp="1657849058983">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

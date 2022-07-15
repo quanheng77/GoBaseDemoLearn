@@ -63,11 +63,11 @@ func main() {
 	//2. 执行命令，并获取结果（不区分 stdout 和 stderr）
 	//3. 执行命令，并获取结果（区分 stdout 和 stderr）
 
-	//打开文件获取内容
+	//打开文件进行io操作
 	//os.Open()
-	//open, _ := os.Open("conf.txt")
+	//OpenFile()
 
 }
 
-//http://c.biancheng.net/view/5572.html os 参考链接
+//http://c.biancheng.net/view/5572.html/https://www.jianshu.com/p/924140aed4f8 os 参考链接
 //https://golang.iswbm.com/c05/c05_02.html / https://zhuanlan.zhihu.com/p/296409942 exec 参考链接
