@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="47ec64a9-6acf-4937-b814-7883daf858a3" name="Default Changelist" comment="提交split">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo02-strings/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo02-strings/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +35,12 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="$PROJECT_DIR$/../../../../Program/Go" />
+  <component name="GOROOT" path="$PROJECT_DIR$/../../../Program/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="2Bw5tqJ1UPp8qBfbLfPI0jgHdNZ" />
   <component name="ProjectViewState">
@@ -49,7 +53,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Go" />
   </component>
   <component name="RunManager" selected="Go Build.go build main.go (1)">
@@ -90,6 +101,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="上传demo01" />
@@ -98,34 +110,47 @@
     <MESSAGE value="提交split" />
     <option name="LAST_COMMIT_MESSAGE" value="提交split" />
   </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1450" height="224" key="GridCell.Tab.0.bottom" timestamp="1657811425283">
-      <screen x="0" y="0" width="1493" height="885" />
+    <state x="561" y="339" key="#GOROOT" timestamp="1657846849456">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="561" y="339" key="#GOROOT/0.0.1536.816@0.0.1536.816" timestamp="1657846849456" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1657849858635">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="1450" height="224" key="GridCell.Tab.0.bottom/0.0.1493.885@0.0.1493.885" timestamp="1657811425283" />
-    <state width="1450" height="224" key="GridCell.Tab.0.center" timestamp="1657811425283">
-      <screen x="0" y="0" width="1493" height="885" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1657849858635" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1657849858635">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="1450" height="224" key="GridCell.Tab.0.center/0.0.1493.885@0.0.1493.885" timestamp="1657811425283" />
-    <state width="1450" height="224" key="GridCell.Tab.0.left" timestamp="1657811425283">
-      <screen x="0" y="0" width="1493" height="885" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1657849858635" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1657849858635">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="1450" height="224" key="GridCell.Tab.0.left/0.0.1493.885@0.0.1493.885" timestamp="1657811425283" />
-    <state width="1450" height="224" key="GridCell.Tab.0.right" timestamp="1657811425283">
-      <screen x="0" y="0" width="1493" height="885" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1657849858635" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1657849858635">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="1450" height="224" key="GridCell.Tab.0.right/0.0.1493.885@0.0.1493.885" timestamp="1657811425283" />
-    <state x="249" y="87" key="SettingsEditor" timestamp="1657806955919">
-      <screen x="0" y="0" width="1493" height="885" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1657849858635" />
+    <state x="256" y="80" key="SettingsEditor" timestamp="1657847029185">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="249" y="87" key="SettingsEditor/0.0.1493.885@0.0.1493.885" timestamp="1657806955919" />
+    <state x="256" y="80" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1657847029185" />
     <state x="340" y="172" key="Vcs.Push.Dialog.v2" timestamp="1657811469743">
       <screen x="0" y="0" width="1493" height="885" />
     </state>
     <state x="340" y="172" key="Vcs.Push.Dialog.v2/0.0.1493.885@0.0.1493.885" timestamp="1657811469743" />
-    <state x="410" y="187" key="search.everywhere.popup" timestamp="1657805289220">
-      <screen x="0" y="0" width="1493" height="885" />
+    <state x="422" y="172" width="672" height="678" key="search.everywhere.popup" timestamp="1657849058983">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="410" y="187" key="search.everywhere.popup/0.0.1493.885@0.0.1493.885" timestamp="1657805289220" />
+    <state x="422" y="172" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1657849058983" />
   </component>
 </project>
