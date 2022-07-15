@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47ec64a9-6acf-4937-b814-7883daf858a3" name="Default Changelist" comment="提交split">
+    <list default="true" id="47ec64a9-6acf-4937-b814-7883daf858a3" name="Default Changelist" comment="提交">
+      <change afterPath="$PROJECT_DIR$/conf.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo03-os/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo02-strings/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo02-strings/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,16 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Go" />
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
+  <component name="RunManager" selected="Go Build.go build GoBaseDemoLearn/demo03-os">
+    <configuration name="go build GoBaseDemoLearn/demo03-os" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoBaseDemoLearn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/demo03-os/main.go" />
+      <package value="GoBaseDemoLearn/demo03-os" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoBaseDemoLearn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -82,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build GoBaseDemoLearn/demo03-os" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
       </list>
@@ -108,7 +120,8 @@
     <MESSAGE value="scan 用法" />
     <MESSAGE value="切换包目录" />
     <MESSAGE value="提交split" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交split" />
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -118,35 +131,36 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="561" y="339" key="#GOROOT/0.0.1536.816@0.0.1536.816" timestamp="1657846849456" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1657849858635">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1657856862378">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="1450" height="224" key="GridCell.Tab.0.bottom/0.0.1493.885@0.0.1493.885" timestamp="1657811425283" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1657849858635" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1657849858635">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1657856862378" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1657856862378">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="1450" height="224" key="GridCell.Tab.0.center/0.0.1493.885@0.0.1493.885" timestamp="1657811425283" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1657849858635" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1657849858635">
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1657856862378" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1657856862378">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="1450" height="224" key="GridCell.Tab.0.left/0.0.1493.885@0.0.1493.885" timestamp="1657811425283" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1657849858635" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1657849858635">
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1657856862378" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1657856862378">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="1450" height="224" key="GridCell.Tab.0.right/0.0.1493.885@0.0.1493.885" timestamp="1657811425283" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1657849858635" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1657856862378" />
     <state x="256" y="80" key="SettingsEditor" timestamp="1657847029185">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="249" y="87" key="SettingsEditor/0.0.1493.885@0.0.1493.885" timestamp="1657806955919" />
     <state x="256" y="80" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1657847029185" />
-    <state x="340" y="172" key="Vcs.Push.Dialog.v2" timestamp="1657811469743">
-      <screen x="0" y="0" width="1493" height="885" />
+    <state x="350" y="159" key="Vcs.Push.Dialog.v2" timestamp="1657851951321">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="340" y="172" key="Vcs.Push.Dialog.v2/0.0.1493.885@0.0.1493.885" timestamp="1657811469743" />
+    <state x="350" y="159" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1657851951321" />
     <state x="422" y="172" width="672" height="678" key="search.everywhere.popup" timestamp="1657849058983">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
