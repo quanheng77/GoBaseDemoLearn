@@ -34,5 +34,10 @@ HandlerFunc 实际上是将 handler 函数做了一个类型转换
 
 */
 
+//经典流程流程
+//client ==> request ==> server[router ==> handler ==> response] ==> client
+
+//https://juejin.cn/post/6844903998869209095
+
 //https://learnku.com/articles/37867
 //https://blog.csdn.net/zrg3699/article/details/122280399
