@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,9 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47ec64a9-6acf-4937-b814-7883daf858a3" name="Default Changelist" comment="提交">
-      <change afterPath="$PROJECT_DIR$/demo04-io/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo05-http/demo01/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo05-http/demo02/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GoBaseDemoLearn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GoBaseDemoLearn.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo04-io/conf.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,80 +40,100 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="$PROJECT_DIR$/../../../Program/Go" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../Program/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2Bw5tqJ1UPp8qBfbLfPI0jgHdNZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="go.import.settings.migrated" value="true" />
-    <property name="go.sdk.automatically.set" value="true" />
-    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Go" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "D:/soft/src/GoBaseDemoLearn",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.splitter.proportion": "0.26051283"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\soft\src\GoBaseDemoLearn\demo05-http\demo01" />
       <recent name="D:\soft\src\GoBaseDemoLearn\demo04-io" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build GoBaseDemoLearn/demo04-io">
+  <component name="RunManager" selected="Go Build.go build GoBaseDemoLearn/demo05-http/demo01">
     <configuration name="go build GoBaseDemoLearn/demo03-os" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoBaseDemoLearn" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/demo03-os/main.go" />
       <package value="GoBaseDemoLearn/demo03-os" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/demo03-os/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build GoBaseDemoLearn/demo04-io" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoBaseDemoLearn" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/demo04-io/main.go" />
       <package value="GoBaseDemoLearn/demo04-io" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/demo04-io/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GoBaseDemoLearn/demo05-http" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoBaseDemoLearn" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/demo02-strings/main.go" />
+      <kind value="PACKAGE" />
+      <package value="GoBaseDemoLearn/demo05-http" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/demo05-http/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GoBaseDemoLearn/demo05-http/demo01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoBaseDemoLearn" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/demo01/main.go" />
+      <kind value="PACKAGE" />
+      <package value="GoBaseDemoLearn/demo05-http/demo01" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/demo05-http/demo01/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build GoBaseDemoLearn/demo05-http/demo02" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoBaseDemoLearn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="GoBaseDemoLearn/demo05-http/demo02" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/demo05-http/demo02/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build GoBaseDemoLearn/demo05-http/demo01" />
+        <item itemvalue="Go Build.go build GoBaseDemoLearn/demo05-http/demo02" />
+        <item itemvalue="Go Build.go build GoBaseDemoLearn/demo05-http" />
         <item itemvalue="Go Build.go build GoBaseDemoLearn/demo04-io" />
         <item itemvalue="Go Build.go build GoBaseDemoLearn/demo03-os" />
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +151,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="上传demo01" />
@@ -138,47 +161,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
   <component name="VgoProject">
-    <integration-enabled>true</integration-enabled>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="561" y="339" key="#GOROOT" timestamp="1657846849456">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="561" y="339" key="#GOROOT/0.0.1536.816@0.0.1536.816" timestamp="1657846849456" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1657874293394">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1450" height="224" key="GridCell.Tab.0.bottom/0.0.1493.885@0.0.1493.885" timestamp="1657811425283" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1657874293394" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1657874293394">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1450" height="224" key="GridCell.Tab.0.center/0.0.1493.885@0.0.1493.885" timestamp="1657811425283" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1657874293394" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1657874293394">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1450" height="224" key="GridCell.Tab.0.left/0.0.1493.885@0.0.1493.885" timestamp="1657811425283" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1657874293394" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1657874293394">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1450" height="224" key="GridCell.Tab.0.right/0.0.1493.885@0.0.1493.885" timestamp="1657811425283" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1657874293394" />
-    <state x="256" y="80" key="SettingsEditor" timestamp="1657847029185">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="249" y="87" key="SettingsEditor/0.0.1493.885@0.0.1493.885" timestamp="1657806955919" />
-    <state x="256" y="80" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1657847029185" />
-    <state x="350" y="159" key="Vcs.Push.Dialog.v2" timestamp="1657869976552">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="340" y="172" key="Vcs.Push.Dialog.v2/0.0.1493.885@0.0.1493.885" timestamp="1657811469743" />
-    <state x="350" y="159" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1657869976552" />
-    <state x="422" y="172" width="672" height="678" key="search.everywhere.popup" timestamp="1657849058983">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="410" y="187" key="search.everywhere.popup/0.0.1493.885@0.0.1493.885" timestamp="1657805289220" />
-    <state x="422" y="172" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1657849058983" />
+    <settings-migrated>true</settings-migrated>
   </component>
 </project>
