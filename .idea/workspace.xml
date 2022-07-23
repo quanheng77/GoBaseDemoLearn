@@ -22,9 +22,33 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47ec64a9-6acf-4937-b814-7883daf858a3" name="Default Changelist" comment="提交split">
-      <change afterPath="$PROJECT_DIR$/demo05-http/main.go" afterDir="false" />
+    <list default="true" id="47ec64a9-6acf-4937-b814-7883daf858a3" name="Default Changelist" comment="httpserver">
+      <change afterPath="$PROJECT_DIR$/demo05-http/demo03/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo05-http/demo04/utils/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo06-error/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo06-error/utils/MyError.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo07-sync/demo01/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo07-sync/demo02/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo08-gin/demo01/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo08-gin/demo02/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo08-gin/demo03/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo08-gin/demo04/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo08-gin/demo04/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo08-gin/demo05/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo08-gin/demo05/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo08-gin/demo06/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo08-gin/demo06/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo08-gin/demo07/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo08-gin/demo08/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo08-gin/demo09/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo08-gin/demo10/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo08-gin/demo10/static/view/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo08-gin/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo09-json/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf.ini" beforeDir="false" afterPath="$PROJECT_DIR$/conf.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,105 +58,119 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Go File" />
         <option value="Go Application" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../Program/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../../Program/Go/src/errors/wrap.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program/Go/src/net/http/server.go" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Bw5tqJ1UPp8qBfbLfPI0jgHdNZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/17325&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.26051283&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultGoTemplateProperty": "Go Application",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "D:/soft/gowork/src/go-workgroup",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Go",
+    "settings.editor.splitter.proportion": "0.26051283"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\soft\gowork\src\GoBaseDemoLearn\demo08-gin\demo01" />
+      <recent name="D:\soft\gowork\src\GoBaseDemoLearn\demo07-sync\demo02" />
+      <recent name="D:\soft\gowork\src\GoBaseDemoLearn\demo06-error\utils" />
       <recent name="D:\soft\src\GoBaseDemoLearn\demo05-http\demo01" />
       <recent name="D:\soft\src\GoBaseDemoLearn\demo04-io" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build GoBaseDemoLearn/demo05-http/demo01">
-    <configuration name="go build GoBaseDemoLearn/demo03-os" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build GoBaseDemoLearn/demo08-gin/demo10">
+    <configuration name="go build GoBaseDemoLearn/demo08-gin/demo07" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoBaseDemoLearn" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="GoBaseDemoLearn/demo03-os" />
+      <package value="GoBaseDemoLearn/demo08-gin/demo07" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/demo03-os/main.go" />
+      <filePath value="$PROJECT_DIR$/demo08-gin/demo07/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build GoBaseDemoLearn/demo04-io" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GoBaseDemoLearn/demo08-gin/demo08" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoBaseDemoLearn" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="GoBaseDemoLearn/demo04-io" />
+      <package value="GoBaseDemoLearn/demo08-gin/demo08" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/demo04-io/main.go" />
+      <filePath value="$PROJECT_DIR$/demo08-gin/demo08/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build GoBaseDemoLearn/demo05-http" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GoBaseDemoLearn/demo08-gin/demo09" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoBaseDemoLearn" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="GoBaseDemoLearn/demo05-http" />
+      <package value="GoBaseDemoLearn/demo08-gin/demo09" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/demo05-http/main.go" />
+      <filePath value="$PROJECT_DIR$/demo08-gin/demo09/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build GoBaseDemoLearn/demo05-http/demo01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GoBaseDemoLearn/demo08-gin/demo10" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoBaseDemoLearn" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="GoBaseDemoLearn/demo05-http/demo01" />
+      <package value="GoBaseDemoLearn/demo08-gin/demo10" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/demo05-http/demo01/main.go" />
+      <filePath value="$PROJECT_DIR$/demo08-gin/demo10/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build GoBaseDemoLearn/demo05-http/demo02" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GoBaseDemoLearn/demo09-json" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoBaseDemoLearn" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="GoBaseDemoLearn/demo05-http/demo02" />
+      <package value="GoBaseDemoLearn/demo09-json" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/demo05-http/demo02/main.go" />
+      <filePath value="$PROJECT_DIR$/demo09-json/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build GoBaseDemoLearn/demo05-http/demo01" />
-        <item itemvalue="Go Build.go build GoBaseDemoLearn/demo05-http/demo02" />
-        <item itemvalue="Go Build.go build GoBaseDemoLearn/demo05-http" />
-        <item itemvalue="Go Build.go build GoBaseDemoLearn/demo04-io" />
-        <item itemvalue="Go Build.go build GoBaseDemoLearn/demo03-os" />
+        <item itemvalue="Go Build.go build GoBaseDemoLearn/demo08-gin/demo10" />
+        <item itemvalue="Go Build.go build GoBaseDemoLearn/demo08-gin/demo09" />
+        <item itemvalue="Go Build.go build GoBaseDemoLearn/demo09-json" />
+        <item itemvalue="Go Build.go build GoBaseDemoLearn/demo08-gin/demo08" />
+        <item itemvalue="Go Build.go build GoBaseDemoLearn/demo08-gin/demo07" />
       </list>
     </recent_temporary>
   </component>
@@ -152,12 +190,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="上传demo01" />
     <MESSAGE value="scan 用法" />
     <MESSAGE value="切换包目录" />
     <MESSAGE value="提交split" />
     <MESSAGE value="提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+    <MESSAGE value="httpserver" />
+    <option name="LAST_COMMIT_MESSAGE" value="httpserver" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
