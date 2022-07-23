@@ -12,6 +12,8 @@ func main() {
 	r.LoadHTMLGlob("demo08-gin/demo10/static/**/*")
 	r.GET("/index", func(c *gin.Context) {
 		c.HTML(http.StatusOK, "index.html", gin.H{"title": "我是测试", "ce": "123456"})
+		//重定向
+		//c.Redirect(http.StatusMovedPermanently, "http://www.quanheng77.top")
 	})
 	r.Run()
 }

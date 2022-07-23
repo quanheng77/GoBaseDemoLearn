@@ -22,33 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47ec64a9-6acf-4937-b814-7883daf858a3" name="Default Changelist" comment="httpserver">
-      <change afterPath="$PROJECT_DIR$/demo05-http/demo03/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo05-http/demo04/utils/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo06-error/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo06-error/utils/MyError.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo07-sync/demo01/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo07-sync/demo02/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo08-gin/demo01/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo08-gin/demo02/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo08-gin/demo03/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo08-gin/demo04/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo08-gin/demo04/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo08-gin/demo05/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo08-gin/demo05/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo08-gin/demo06/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo08-gin/demo06/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo08-gin/demo07/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo08-gin/demo08/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo08-gin/demo09/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo08-gin/demo10/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo08-gin/demo10/static/view/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo08-gin/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo09-json/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+    <list default="true" id="47ec64a9-6acf-4937-b814-7883daf858a3" name="Default Changelist" comment="gin">
+      <change afterPath="$PROJECT_DIR$/demo08-gin/demo11/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo08-gin/demo12/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo08-gin/demo13/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo08-gin/demo14/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf.ini" beforeDir="false" afterPath="$PROJECT_DIR$/conf.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo08-gin/demo10/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo08-gin/demo10/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +39,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
-        <option value="Go Application" />
         <option value="HTML File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -111,41 +91,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\soft\gowork\src\GoBaseDemoLearn\demo08-gin\demo14" />
       <recent name="D:\soft\gowork\src\GoBaseDemoLearn\demo08-gin\demo01" />
       <recent name="D:\soft\gowork\src\GoBaseDemoLearn\demo07-sync\demo02" />
       <recent name="D:\soft\gowork\src\GoBaseDemoLearn\demo06-error\utils" />
       <recent name="D:\soft\src\GoBaseDemoLearn\demo05-http\demo01" />
-      <recent name="D:\soft\src\GoBaseDemoLearn\demo04-io" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build GoBaseDemoLearn/demo08-gin/demo10">
-    <configuration name="go build GoBaseDemoLearn/demo08-gin/demo07" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoBaseDemoLearn" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="GoBaseDemoLearn/demo08-gin/demo07" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/demo08-gin/demo07/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build GoBaseDemoLearn/demo08-gin/demo08" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoBaseDemoLearn" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="GoBaseDemoLearn/demo08-gin/demo08" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/demo08-gin/demo08/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build GoBaseDemoLearn/demo08-gin/demo09" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoBaseDemoLearn" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="GoBaseDemoLearn/demo08-gin/demo09" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/demo08-gin/demo09/main.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build GoBaseDemoLearn/demo08-gin/demo14">
     <configuration name="go build GoBaseDemoLearn/demo08-gin/demo10" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoBaseDemoLearn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -155,22 +108,49 @@
       <filePath value="$PROJECT_DIR$/demo08-gin/demo10/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build GoBaseDemoLearn/demo09-json" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GoBaseDemoLearn/demo08-gin/demo11" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoBaseDemoLearn" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="GoBaseDemoLearn/demo09-json" />
+      <package value="GoBaseDemoLearn/demo08-gin/demo11" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/demo09-json/main.go" />
+      <filePath value="$PROJECT_DIR$/demo08-gin/demo11/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build GoBaseDemoLearn/demo08-gin/demo12" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoBaseDemoLearn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="GoBaseDemoLearn/demo08-gin/demo12" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/demo08-gin/demo12/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build GoBaseDemoLearn/demo08-gin/demo13" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoBaseDemoLearn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="GoBaseDemoLearn/demo08-gin/demo13" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/demo08-gin/demo13/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build GoBaseDemoLearn/demo08-gin/demo14" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoBaseDemoLearn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="GoBaseDemoLearn/demo08-gin/demo14" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/demo08-gin/demo14/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build GoBaseDemoLearn/demo08-gin/demo14" />
+        <item itemvalue="Go Build.go build GoBaseDemoLearn/demo08-gin/demo13" />
+        <item itemvalue="Go Build.go build GoBaseDemoLearn/demo08-gin/demo12" />
+        <item itemvalue="Go Build.go build GoBaseDemoLearn/demo08-gin/demo11" />
         <item itemvalue="Go Build.go build GoBaseDemoLearn/demo08-gin/demo10" />
-        <item itemvalue="Go Build.go build GoBaseDemoLearn/demo08-gin/demo09" />
-        <item itemvalue="Go Build.go build GoBaseDemoLearn/demo09-json" />
-        <item itemvalue="Go Build.go build GoBaseDemoLearn/demo08-gin/demo08" />
-        <item itemvalue="Go Build.go build GoBaseDemoLearn/demo08-gin/demo07" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +177,8 @@
     <MESSAGE value="提交split" />
     <MESSAGE value="提交" />
     <MESSAGE value="httpserver" />
-    <option name="LAST_COMMIT_MESSAGE" value="httpserver" />
+    <MESSAGE value="gin" />
+    <option name="LAST_COMMIT_MESSAGE" value="gin" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
